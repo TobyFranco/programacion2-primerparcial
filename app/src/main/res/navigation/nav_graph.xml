@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_estudiantes">
+
+    <fragment
+        android:id="@+id/nav_estudiantes"
+        android:name="com.example.gestionacademica.ui.estudiantes.EstudiantesFragment"
+        android:label="Estudiantes" />
+
+    <fragment
+        android:id="@+id/nav_materias"
+        android:name="com.example.gestionacademica.ui.materias.MateriasFragment"
+        android:label="Materias" />
+
+    <fragment
+        android:id="@+id/nav_inscripciones"
+        android:name="com.example.gestionacademica.ui.inscripciones.InscripcionesFragment"
+        android:label="Inscripciones" />
+
+</navigation>
